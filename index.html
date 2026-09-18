@@ -191,6 +191,164 @@ header {
   margin: 6px 0;
   color: #555;
 }
+
+
+  /* =========================================================
+   RESPONSIVE — TABLETTE
+========================================================= */
+
+@media (max-width: 850px) {
+
+  #portfolio {
+    width: 100%;
+  }
+
+  .portfolio-header {
+    padding: 30px 20px;
+    gap: 15px;
+  }
+
+  .photo-profil {
+    flex: 0 0 105px;
+  }
+
+  .photo-profil img {
+    width: 95px;
+    height: 95px;
+  }
+
+  .logo-gicode {
+    flex: 0 0 170px;
+  }
+
+  .logo-gicode img {
+    width: 170px;
+  }
+
+  .header-info h1 {
+    font-size: 1.8em;
+  }
+
+  .header-info p {
+    font-size: 0.95em;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE — TÉLÉPHONE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .portfolio-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+    gap: 15px;
+  }
+
+  /* Photo */
+  .photo-profil {
+    flex: none;
+  }
+
+  .photo-profil img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Texte */
+  .header-info {
+    width: 100%;
+  }
+
+  .header-info h1 {
+    font-size: 1.7em;
+  }
+
+  .header-info p {
+    font-size: 0.95em;
+  }
+
+  .header-info .fonction {
+    font-size: 1em;
+  }
+
+  /* Logo */
+  .logo-gicode {
+    flex: none;
+    width: 100%;
+  }
+
+  .logo-gicode img {
+    width: 180px;
+    margin: 5px auto;
+  }
+
+  /* Navigation */
+  nav {
+    gap: 10px;
+    padding: 10px 5px;
+  }
+
+  nav a {
+    font-size: 0.9em;
+  }
+
+  /* Sections */
+  section {
+    margin: 20px 10px;
+    padding: 25px 20px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  /* Bouton */
+  .download-btn {
+    margin: 30px auto;
+    width: 90%;
+  }
+}
+
+/* =========================================================
+   PETITS TÉLÉPHONES
+========================================================= */
+
+@media (max-width: 400px) {
+
+  .portfolio-header {
+    padding: 25px 10px;
+  }
+
+  .photo-profil img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .header-info h1 {
+    font-size: 1.45em;
+  }
+
+  .header-info p {
+    font-size: 0.85em;
+  }
+
+  .logo-gicode img {
+    width: 160px;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
+
+  section {
+    margin: 15px 8px;
+    padding: 20px 15px;
+  }
+}
+  
 </style>
 </head>
 
